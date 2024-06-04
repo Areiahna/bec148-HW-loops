@@ -9,3 +9,17 @@ while True:
         break
     else:
         print("SURVEY SAYS: [X][X][X]")
+    
+print("="*50)
+#-----------------------------
+
+# Task 2: Conditional Exit 
+
+# Create a while loop that will terminate after 5 iterations, and each iteration you print which iteration it is on. (use a control variable)
+
+tokens = 5
+
+while (tokens >= 1): 
+    tokens -= 1
+    print("GAME OVER!!", tokens, "TOKENS LEFT")
+    
